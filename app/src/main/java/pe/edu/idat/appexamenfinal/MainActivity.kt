@@ -1,12 +1,16 @@
 package pe.edu.idat.appexamenfinal
 
 import android.os.Bundle
+<<<<<<< HEAD
 import android.view.View
 import android.view.inputmethod.InputBinding
+=======
+>>>>>>> 5654791ad101868e1bab9ddcb29b8675bdc932fe
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+<<<<<<< HEAD
 import pe.edu.idat.appexamenfinal.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -34,4 +38,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.textView.setText("total a pagar es $total")
     }
 
+=======
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_main)
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
+    }
+>>>>>>> 5654791ad101868e1bab9ddcb29b8675bdc932fe
 }
