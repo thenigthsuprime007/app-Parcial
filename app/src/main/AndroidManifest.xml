@@ -13,6 +13,10 @@
         android:theme="@style/Theme.AppExamenFinal"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 84f1aa6d3ecd7f3158faaf05872b5a71a31b009d
             android:name=".ejercicio4"
             android:exported="false" />
         <activity
@@ -22,6 +26,11 @@
             android:name=".ejercicio2"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 5654791ad101868e1bab9ddcb29b8675bdc932fe
+>>>>>>> 84f1aa6d3ecd7f3158faaf05872b5a71a31b009d
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

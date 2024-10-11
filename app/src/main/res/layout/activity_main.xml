@@ -5,6 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 84f1aa6d3ecd7f3158faaf05872b5a71a31b009d
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
     tools:context=".MainActivity">
@@ -54,4 +58,20 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="145dp" />
+<<<<<<< HEAD
+=======
+=======
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+>>>>>>> 5654791ad101868e1bab9ddcb29b8675bdc932fe
+>>>>>>> 84f1aa6d3ecd7f3158faaf05872b5a71a31b009d
 </androidx.constraintlayout.widget.ConstraintLayout>

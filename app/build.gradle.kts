@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 import javax.naming.Binding
 
+=======
+<<<<<<< HEAD
+import javax.naming.Binding
+
+=======
+>>>>>>> 5654791ad101868e1bab9ddcb29b8675bdc932fe
+>>>>>>> 84f1aa6d3ecd7f3158faaf05872b5a71a31b009d
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -35,9 +43,18 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+<<<<<<< HEAD
     viewBinding{
         enable=true
     }
+=======
+<<<<<<< HEAD
+    viewBinding{
+        enable=true
+    }
+=======
+>>>>>>> 5654791ad101868e1bab9ddcb29b8675bdc932fe
+>>>>>>> 84f1aa6d3ecd7f3158faaf05872b5a71a31b009d
 }
 
 dependencies {

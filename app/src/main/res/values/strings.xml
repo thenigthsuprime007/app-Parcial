@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">AppExamenFinal</string>
+<<<<<<< HEAD
     <string name="btnCalcular">Calcular</string>
     <string name="titulo">EJERCICIO 1</string>
     <string name="txtnumero1">INGRESAR MINUTOS</string>
+=======
+<<<<<<< HEAD
+    <string name="btnCalcular">Calcular</string>
+    <string name="titulo">EJERCICIO 1</string>
+    <string name="txtnumero1">INGRESAR MINUTOS</string>
+=======
+>>>>>>> 5654791ad101868e1bab9ddcb29b8675bdc932fe
+>>>>>>> 84f1aa6d3ecd7f3158faaf05872b5a71a31b009d
 </resources>
